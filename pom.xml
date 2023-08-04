@@ -127,8 +127,8 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<!-- i added this line -->
-				<version>3.8.1</version> 
+
+
 				<configuration>
 					<excludes>
 						<exclude>
