@@ -11,7 +11,7 @@
 
 	<groupId>tn.actia.pfe</groupId>
 	<artifactId>Pfe_App</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>Pfe_App</name>
 	<description>project for Spring Boot</description>
 	<properties>
