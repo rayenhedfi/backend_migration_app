@@ -1,4 +1,4 @@
-package tn.actia.testclass.migration;
+package tn.actia.pfe.testclass.migration;
 
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
