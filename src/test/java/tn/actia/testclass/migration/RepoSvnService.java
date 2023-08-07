@@ -11,6 +11,8 @@ import org.junit.runner.RunWith;
 import tn.actia.pfe.Pfe_App.REPO_SVN.Svn;
 import tn.actia.pfe.Pfe_App.REPO_SVN.SvnRepository;
 import tn.actia.pfe.Pfe_App.REPO_SVN.SvnService;
+import tn.actia.pfe.Pfe_App.REPO_SVN.SvnServiceImpl;
+
 import java.util.Optional;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
@@ -20,7 +22,7 @@ public class RepoSvnService {
     @Mock
     SvnRepository svnRepository;
     @InjectMocks
-    SvnService svnService;
+    SvnServiceImpl svnService;
 
 
     Svn s1 = new Svn(1l,"http://testreposvn1.com","reposvn1",4,10);
